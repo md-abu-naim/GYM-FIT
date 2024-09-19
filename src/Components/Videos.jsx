@@ -13,7 +13,6 @@ const Videos = () => {
                 <h2 className="md:text-3xl text-2xl font-bold text-[#EE6C0C] hover:text-[#de6006] transition-colors uppercase duration-300">Watch now</h2>
             </div>
 
-
             {/* modal */}
             {showModal ? (
                 <>
