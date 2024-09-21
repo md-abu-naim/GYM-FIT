@@ -15,3 +15,19 @@ export const topCources = [
         "description": "Hot Yoga is a type of yoga practiced in a heated room, designed to enhance flexibility, detoxify the body, and promote mindfulness. The heat allows for deeper stretches and a more intense workout."
     }
 ]
+
+
+export const images = [
+    {
+        "id": 1,
+        "image": "https://i.postimg.cc/KjtSZ0rq/part2.jpg"
+    },
+    {
+        "id": 2,
+        "image": "https://i.postimg.cc/76Fr8F7J/part1.jpg"
+    },
+    {
+        "id": 3,
+        "image": "https://i.postimg.cc/mZ9GNrfY/part3.avif"
+    },
+]

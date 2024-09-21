@@ -17,7 +17,7 @@ export default function Home() {
         <Banner />
       </header>
       <main className="font-serif">
-      <OverviewPage />
+        <OverviewPage />
         <OurCourses />
         <Run />
         <Features />
