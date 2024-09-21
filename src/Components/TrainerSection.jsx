@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const TrainerSection = () => {
     return (
-        <div className="pt-16 px-5 lg:px-20 flex flex-col-reverse md:flex-row-reverse lg:items-center justify-between gap-20">
+        <div className="py-16 px-5 lg:px-20 flex flex-col-reverse md:flex-row-reverse lg:items-center justify-between gap-20">
             <div className="">
                 <Swiper
                     spaceBetween={30}
