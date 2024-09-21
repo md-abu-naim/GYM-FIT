@@ -25,7 +25,7 @@ const Videos = () => {
                                         className="text-black bg-transparent border-0 text-3xl leading-none font-semibold outline-none focus:outline-none"
                                         onClick={() => setShowModal(false)}
                                     >
-                                        <span className="bg-[#252322] text-white h-9 w-9 text-2xl block outline-none focus:outline-none">
+                                        <span className="bg-[#252322] text-white h-9 w-9 text-2xl block outline-none focus:outline-none hover:text-[#EE6C0C]">
                                             ×
                                         </span>
                                     </button>
