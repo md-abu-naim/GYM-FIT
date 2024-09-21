@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const GetInTouch = () => {
     return (
-        <div className="flex bg-[url('/course.webp')] bg-cover bg-no-repeat flex-col gap-8 px-5 lg:px-20 md:flex-row justify-between items-center">
-            <div className="w-1/2">
+        <div className="flex bg-[url('/course.webp')] bg-cover bg-no-repeat flex-col gap-8 px-5 md:px-20 md:flex-row justify-between items-center">
+            <div className="w-1/2 hidden lg:block">
                 <Image src={'/getInTouch.png'} className="h-full w-full" width={300} height={400} alt="" />
             </div>
-            <div className="w-1/2">
+            <div className="lg:w-1/2 w-full py-10">
                 <h1 className="text-3xl pb-10 font-bold uppercase">Get In touch</h1>
                 <form action="">
                     <div className="border-b pt-4">
