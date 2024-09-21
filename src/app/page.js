@@ -14,10 +14,14 @@ import Videos from "@/Components/Videos";
 export default function Home() {
   return (
     <div className="bg-[#252322] text-white font-[family-name:var(--font-geist-sans)]">
+      
+      {/* header */}
       <header className="bg-[url('/bg.jpg')] pt-10 font-serif bg-no-repeat bg-cover lg:px-20">
         <Navber />
         <Banner />
       </header>
+
+      {/* main */}
       <main className="font-serif">
         <OverviewPage />
         <OurCourses />
@@ -29,6 +33,8 @@ export default function Home() {
         <History />
         <GetInTouch />
       </main>
+
+      {/* footer */}
       <footer className="font-serif">
         <Footer />
       </footer>
