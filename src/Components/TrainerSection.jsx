@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const TrainerSection = () => {
     return (
-        <div className="pt-16 px-5 lg:px-20 flex flex-col md:flex-row-reverse lg:items-center justify-between gap-20">
+        <div className="pt-16 px-5 lg:px-20 flex flex-col-reverse md:flex-row-reverse lg:items-center justify-between gap-20">
             <div className="">
                 <Swiper
                     spaceBetween={30}
@@ -25,11 +25,10 @@ const TrainerSection = () => {
                         clickable: true,
                     }}
                     modules={[Pagination, Autoplay]}
-                    className="mySwiper w-[450px] h-80">
-                        
+                    className="mySwiper lg:w-[450px] md:w-[310px] w-full md:h-[230px] lg:h-80">
 
                     {
-                        images.map(image => <SwiperSlide key={image.id}><Image className="w-[450px] h-80 rounded-xl" src={image.image } width={400} height={400} alt="images" /></SwiperSlide>)
+                        images.map(image => <SwiperSlide key={image.id}><Image className="md:w-[450px] w-full md:h-80 rounded-xl" src={image.image } width={400} height={400} alt="images" /></SwiperSlide>)
                     }
                 </Swiper>
             </div>
