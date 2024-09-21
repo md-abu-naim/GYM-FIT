@@ -1,6 +1,7 @@
 import Banner from "@/Components/Banner";
 import Features from "@/Components/Features";
 import Footer from "@/Components/Footer";
+import History from "@/Components/History";
 import Navber from "@/Components/Navber";
 import OurCourses from "@/Components/OurCourses";
 import OverviewPage from "@/Components/OverviewPage";
@@ -24,6 +25,7 @@ export default function Home() {
         <Process />
         <Videos />
         <TrainerSection />
+        <History />
       </main>
       <footer className="font-serif">
         <Footer />
