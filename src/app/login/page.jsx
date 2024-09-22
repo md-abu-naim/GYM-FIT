@@ -9,7 +9,7 @@ const Login = () => {
         <div className="bg-[url('/bg.jpg')] relative md:h-[800px] h-[900px] text-white bg-cover bg-no-repeat">
             <Navber />
             <div className="flex flex-col gap-8 pr-5 lg:pr-20 md:flex-row justify-between items-center">
-                <div className="w-1/2 md:hidden lg:block">
+                <div className="w-1/2 hidden lg:block">
                     <Image src={'/login.webp'} className="opacity-70 w-[500px]" width={300} height={40} alt="" />
                     <Image src='/register.png' className="absolute md:hidden lg:block top-0 left-0 bottom-3 w-[680px]" width={400} height={400} alt="" />
                 </div>
