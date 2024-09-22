@@ -16,7 +16,7 @@ export default function Home() {
     <div className="bg-[#252322] text-white font-[family-name:var(--font-geist-sans)]">
       
       {/* header */}
-      <header className="bg-[url('/bg.jpg')] pt-10 font-serif bg-no-repeat bg-cover lg:px-20">
+      <header className="bg-[url('/bg.jpg')] font-serif bg-no-repeat bg-cover lg:px-20">
         <Navber />
         <Banner />
       </header>
