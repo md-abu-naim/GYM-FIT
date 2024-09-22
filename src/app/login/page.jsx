@@ -14,12 +14,8 @@ const Login = () => {
                     <Image src='/register.png' className="absolute md:hidden lg:block top-0 left-0 bottom-3 w-[680px]" width={400} height={400} alt="" />
                 </div>
                 <div className="lg:w-1/2 text-center p-5 w-full mt-10 py-10">
-                    <h1 className="text-4xl text-[#EE6C0C] pb-10 font-bold uppercase">Continue with your fitness</h1>
+                    <h1 className="text-4xl text-[#EE6C0C] pb-10 font-bold uppercase">enroll to fitness</h1>
                     <form className="">
-                        <div className="border-b pt-4">
-                            <input placeholder="NAME" type="text" name="name" className=" bg-transparent w-full text-white border-none  border-white" />
-
-                        </div>
                         <div className="border-b pt-3 mt-4">
                             <input placeholder="EMAIL" type="email" name="email" className="bg-transparent w-full text-white border-none  border-white" />
                         </div>

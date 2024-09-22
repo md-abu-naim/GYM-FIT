@@ -32,7 +32,7 @@ const Register = () => {
                         <button className="btn rounded-3xl mt-6 px-10 hover:bg-[#252322] bg-[#EE6C0C] border-none text-white uppercase w-1/2"> <span className="hidden md:block">Enroll with Google</span> <span className="lg:hidden text-3xl md:text-2xl"><FaGoogle /></span></button>
                         <button className="btn rounded-3xl mt-6 px-10 hover:bg-[#252322] bg-[#EE6C0C] border-none text-white uppercase w-1/2">  <span className="hidden md:block">Enroll with github</span> <span className="lg:hidden text-3xl"><FaGithub /></span></button>
                     </div>
-                    <Link href='/register' className="">Already have an account? <span className="text-[#EE6C0C] underline">Create One</span> </Link>
+                    <Link href='/login' className="">Already have an account? <span className="text-[#EE6C0C] underline">SignIN</span> </Link>
                 </div>
             </div>
             <Footer />
